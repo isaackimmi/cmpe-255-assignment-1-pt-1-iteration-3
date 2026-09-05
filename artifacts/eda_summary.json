@@ -1,0 +1,2521 @@
+{
+  "overall": {
+    "total_matches": 25979,
+    "outcomes": {
+      "home_wins": 11917,
+      "home_win_pct": 45.87,
+      "draws": 6596,
+      "draw_pct": 25.39,
+      "away_wins": 7466,
+      "away_win_pct": 28.74
+    },
+    "goals": {
+      "avg_home_goals": 1.545,
+      "avg_away_goals": 1.161,
+      "avg_total_goals": 2.706,
+      "home_goal_advantage": 0.384
+    },
+    "seasons_covered": [
+      "2008/2009",
+      "2009/2010",
+      "2010/2011",
+      "2011/2012",
+      "2012/2013",
+      "2013/2014",
+      "2014/2015",
+      "2015/2016"
+    ],
+    "leagues_covered": [
+      "Belgium Jupiler League",
+      "England Premier League",
+      "France Ligue 1",
+      "Germany 1. Bundesliga",
+      "Italy Serie A",
+      "Netherlands Eredivisie",
+      "Poland Ekstraklasa",
+      "Portugal Liga ZON Sagres",
+      "Scotland Premier League",
+      "Spain LIGA BBVA",
+      "Switzerland Super League"
+    ]
+  },
+  "leagues": [
+    {
+      "league_name": "Spain LIGA BBVA",
+      "country_name": "Spain",
+      "total_matches": 3040,
+      "home_win_pct": 48.85,
+      "draw_pct": 23.16,
+      "away_win_pct": 27.99,
+      "avg_home_goals": 1.63,
+      "avg_away_goals": 1.14,
+      "goal_advantage": 0.5
+    },
+    {
+      "league_name": "Netherlands Eredivisie",
+      "country_name": "Netherlands",
+      "total_matches": 2448,
+      "home_win_pct": 47.83,
+      "draw_pct": 23.73,
+      "away_win_pct": 28.43,
+      "avg_home_goals": 1.78,
+      "avg_away_goals": 1.3,
+      "goal_advantage": 0.48
+    },
+    {
+      "league_name": "Belgium Jupiler League",
+      "country_name": "Belgium",
+      "total_matches": 1728,
+      "home_win_pct": 46.88,
+      "draw_pct": 24.59,
+      "away_win_pct": 28.53,
+      "avg_home_goals": 1.61,
+      "avg_away_goals": 1.19,
+      "goal_advantage": 0.42
+    },
+    {
+      "league_name": "Italy Serie A",
+      "country_name": "Italy",
+      "total_matches": 3017,
+      "home_win_pct": 46.64,
+      "draw_pct": 26.38,
+      "away_win_pct": 26.98,
+      "avg_home_goals": 1.5,
+      "avg_away_goals": 1.12,
+      "goal_advantage": 0.38
+    },
+    {
+      "league_name": "England Premier League",
+      "country_name": "England",
+      "total_matches": 3040,
+      "home_win_pct": 45.72,
+      "draw_pct": 25.76,
+      "away_win_pct": 28.52,
+      "avg_home_goals": 1.55,
+      "avg_away_goals": 1.16,
+      "goal_advantage": 0.39
+    },
+    {
+      "league_name": "Switzerland Super League",
+      "country_name": "Switzerland",
+      "total_matches": 1422,
+      "home_win_pct": 45.71,
+      "draw_pct": 24.33,
+      "away_win_pct": 29.96,
+      "avg_home_goals": 1.66,
+      "avg_away_goals": 1.27,
+      "goal_advantage": 0.4
+    },
+    {
+      "league_name": "Poland Ekstraklasa",
+      "country_name": "Poland",
+      "total_matches": 1920,
+      "home_win_pct": 45.31,
+      "draw_pct": 27.34,
+      "away_win_pct": 27.34,
+      "avg_home_goals": 1.39,
+      "avg_away_goals": 1.03,
+      "goal_advantage": 0.36
+    },
+    {
+      "league_name": "Germany 1. Bundesliga",
+      "country_name": "Germany",
+      "total_matches": 2448,
+      "home_win_pct": 45.22,
+      "draw_pct": 24.39,
+      "away_win_pct": 30.39,
+      "avg_home_goals": 1.63,
+      "avg_away_goals": 1.27,
+      "goal_advantage": 0.35
+    },
+    {
+      "league_name": "France Ligue 1",
+      "country_name": "France",
+      "total_matches": 3040,
+      "home_win_pct": 44.7,
+      "draw_pct": 28.26,
+      "away_win_pct": 27.04,
+      "avg_home_goals": 1.4,
+      "avg_away_goals": 1.04,
+      "goal_advantage": 0.36
+    },
+    {
+      "league_name": "Portugal Liga ZON Sagres",
+      "country_name": "Portugal",
+      "total_matches": 2052,
+      "home_win_pct": 44.25,
+      "draw_pct": 25.97,
+      "away_win_pct": 29.78,
+      "avg_home_goals": 1.41,
+      "avg_away_goals": 1.13,
+      "goal_advantage": 0.28
+    },
+    {
+      "league_name": "Scotland Premier League",
+      "country_name": "Scotland",
+      "total_matches": 1824,
+      "home_win_pct": 41.67,
+      "draw_pct": 24.51,
+      "away_win_pct": 33.83,
+      "avg_home_goals": 1.43,
+      "avg_away_goals": 1.2,
+      "goal_advantage": 0.22
+    }
+  ],
+  "seasons": [
+    {
+      "season": "2008/2009",
+      "total_matches": 3326,
+      "home_win_pct": 47.08,
+      "draw_pct": 24.98,
+      "away_win_pct": 27.93,
+      "avg_home_goals": 1.51,
+      "avg_away_goals": 1.1,
+      "goal_advantage": 0.4
+    },
+    {
+      "season": "2009/2010",
+      "total_matches": 3230,
+      "home_win_pct": 47.43,
+      "draw_pct": 25.2,
+      "away_win_pct": 27.37,
+      "avg_home_goals": 1.54,
+      "avg_away_goals": 1.13,
+      "goal_advantage": 0.41
+    },
+    {
+      "season": "2010/2011",
+      "total_matches": 3260,
+      "home_win_pct": 46.63,
+      "draw_pct": 25.74,
+      "away_win_pct": 27.64,
+      "avg_home_goals": 1.55,
+      "avg_away_goals": 1.14,
+      "goal_advantage": 0.41
+    },
+    {
+      "season": "2011/2012",
+      "total_matches": 3220,
+      "home_win_pct": 46.52,
+      "draw_pct": 25.4,
+      "away_win_pct": 28.07,
+      "avg_home_goals": 1.57,
+      "avg_away_goals": 1.14,
+      "goal_advantage": 0.43
+    },
+    {
+      "season": "2012/2013",
+      "total_matches": 3260,
+      "home_win_pct": 44.29,
+      "draw_pct": 26.17,
+      "away_win_pct": 29.54,
+      "avg_home_goals": 1.55,
+      "avg_away_goals": 1.22,
+      "goal_advantage": 0.33
+    },
+    {
+      "season": "2013/2014",
+      "total_matches": 3032,
+      "home_win_pct": 46.31,
+      "draw_pct": 24.27,
+      "away_win_pct": 29.42,
+      "avg_home_goals": 1.58,
+      "avg_away_goals": 1.19,
+      "goal_advantage": 0.39
+    },
+    {
+      "season": "2014/2015",
+      "total_matches": 3325,
+      "home_win_pct": 44.93,
+      "draw_pct": 25.56,
+      "away_win_pct": 29.5,
+      "avg_home_goals": 1.52,
+      "avg_away_goals": 1.16,
+      "goal_advantage": 0.36
+    },
+    {
+      "season": "2015/2016",
+      "total_matches": 3326,
+      "home_win_pct": 43.87,
+      "draw_pct": 25.71,
+      "away_win_pct": 30.43,
+      "avg_home_goals": 1.54,
+      "avg_away_goals": 1.21,
+      "goal_advantage": 0.33
+    }
+  ],
+  "goal_distributions": {
+    "distribution": [
+      {
+        "goals": "0",
+        "home_frequency": 5896,
+        "away_frequency": 8687,
+        "home_pct": 22.7,
+        "away_pct": 33.44
+      },
+      {
+        "goals": "1",
+        "home_frequency": 8400,
+        "away_frequency": 8989,
+        "home_pct": 32.33,
+        "away_pct": 34.6
+      },
+      {
+        "goals": "2",
+        "home_frequency": 6339,
+        "away_frequency": 5146,
+        "home_pct": 24.4,
+        "away_pct": 19.81
+      },
+      {
+        "goals": "3",
+        "home_frequency": 3288,
+        "away_frequency": 2145,
+        "home_pct": 12.66,
+        "away_pct": 8.26
+      },
+      {
+        "goals": "4",
+        "home_frequency": 1385,
+        "away_frequency": 718,
+        "home_pct": 5.33,
+        "away_pct": 2.76
+      },
+      {
+        "goals": "5",
+        "home_frequency": 457,
+        "away_frequency": 215,
+        "home_pct": 1.76,
+        "away_pct": 0.83
+      },
+      {
+        "goals": "6",
+        "home_frequency": 161,
+        "away_frequency": 63,
+        "home_pct": 0.62,
+        "away_pct": 0.24
+      },
+      {
+        "goals": "7",
+        "home_frequency": 38,
+        "away_frequency": 10,
+        "home_pct": 0.15,
+        "away_pct": 0.04
+      },
+      {
+        "goals": "8+",
+        "home_frequency": 9,
+        "away_frequency": 5,
+        "home_pct": 0.03,
+        "away_pct": 0.02
+      }
+    ]
+  },
+  "team_rankings": [
+    {
+      "team_name": "FC Barcelona",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 86.2,
+      "away_matches": 152,
+      "away_win_pct": 67.8,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Real Madrid CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 84.9,
+      "away_matches": 152,
+      "away_win_pct": 65.1,
+      "home_advantage_gap": 19.7
+    },
+    {
+      "team_name": "FC Porto",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 82.3,
+      "away_matches": 124,
+      "away_win_pct": 65.3,
+      "home_advantage_gap": 16.9
+    },
+    {
+      "team_name": "SL Benfica",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 82.3,
+      "away_matches": 124,
+      "away_win_pct": 66.9,
+      "home_advantage_gap": 15.3
+    },
+    {
+      "team_name": "FC Bayern Munich",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 80.1,
+      "away_matches": 136,
+      "away_win_pct": 61.8,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Celtic",
+      "league": "Scotland Premier League",
+      "home_matches": 152,
+      "home_win_pct": 78.9,
+      "away_matches": 152,
+      "away_win_pct": 64.5,
+      "home_advantage_gap": 14.5
+    },
+    {
+      "team_name": "PSV",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 77.2,
+      "away_matches": 136,
+      "away_win_pct": 53.7,
+      "home_advantage_gap": 23.5
+    },
+    {
+      "team_name": "Manchester United",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 76.3,
+      "away_matches": 152,
+      "away_win_pct": 50.0,
+      "home_advantage_gap": 26.3
+    },
+    {
+      "team_name": "Ajax",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 75.7,
+      "away_matches": 136,
+      "away_win_pct": 57.4,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "RSC Anderlecht",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 74.5,
+      "away_matches": 106,
+      "away_win_pct": 53.8,
+      "home_advantage_gap": 20.8
+    },
+    {
+      "team_name": "Manchester City",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 74.3,
+      "away_matches": 152,
+      "away_win_pct": 40.8,
+      "home_advantage_gap": 33.6
+    },
+    {
+      "team_name": "Rangers",
+      "league": "Scotland Premier League",
+      "home_matches": 76,
+      "home_win_pct": 73.7,
+      "away_matches": 76,
+      "away_win_pct": 68.4,
+      "home_advantage_gap": 5.3
+    },
+    {
+      "team_name": "FC Basel",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 72.0,
+      "away_matches": 143,
+      "away_win_pct": 53.8,
+      "home_advantage_gap": 18.2
+    },
+    {
+      "team_name": "Club Brugge KV",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 70.8,
+      "away_matches": 106,
+      "away_win_pct": 45.3,
+      "home_advantage_gap": 25.5
+    },
+    {
+      "team_name": "Juventus",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 69.5,
+      "away_matches": 150,
+      "away_win_pct": 56.0,
+      "home_advantage_gap": 13.5
+    },
+    {
+      "team_name": "Atl\u00e9tico Madrid",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 67.8,
+      "away_matches": 152,
+      "away_win_pct": 42.1,
+      "home_advantage_gap": 25.7
+    },
+    {
+      "team_name": "Legia Warszawa",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 67.5,
+      "away_matches": 120,
+      "away_win_pct": 46.7,
+      "home_advantage_gap": 20.8
+    },
+    {
+      "team_name": "Paris Saint-Germain",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 67.1,
+      "away_matches": 152,
+      "away_win_pct": 48.0,
+      "home_advantage_gap": 19.1
+    },
+    {
+      "team_name": "Chelsea",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 66.4,
+      "away_matches": 152,
+      "away_win_pct": 49.3,
+      "home_advantage_gap": 17.1
+    },
+    {
+      "team_name": "SC Braga",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 65.3,
+      "away_matches": 124,
+      "away_win_pct": 36.3,
+      "home_advantage_gap": 29.0
+    },
+    {
+      "team_name": "Borussia Dortmund",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 64.7,
+      "away_matches": 136,
+      "away_win_pct": 50.7,
+      "home_advantage_gap": 14.0
+    },
+    {
+      "team_name": "Roma",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 64.2,
+      "away_matches": 152,
+      "away_win_pct": 42.8,
+      "home_advantage_gap": 21.5
+    },
+    {
+      "team_name": "Arsenal",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 63.8,
+      "away_matches": 152,
+      "away_win_pct": 48.0,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "Sporting CP",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 63.7,
+      "away_matches": 124,
+      "away_win_pct": 52.4,
+      "home_advantage_gap": 11.3
+    },
+    {
+      "team_name": "Napoli",
+      "league": "Italy Serie A",
+      "home_matches": 150,
+      "home_win_pct": 63.3,
+      "away_matches": 151,
+      "away_win_pct": 38.4,
+      "home_advantage_gap": 24.9
+    },
+    {
+      "team_name": "Feyenoord",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 63.2,
+      "away_matches": 136,
+      "away_win_pct": 39.0,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "FC Twente",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 62.5,
+      "away_matches": 136,
+      "away_win_pct": 43.4,
+      "home_advantage_gap": 19.1
+    },
+    {
+      "team_name": "Standard de Li\u00e8ge",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 62.3,
+      "away_matches": 106,
+      "away_win_pct": 37.7,
+      "home_advantage_gap": 24.5
+    },
+    {
+      "team_name": "Lech Pozna\u0144",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 61.7,
+      "away_matches": 120,
+      "away_win_pct": 41.7,
+      "home_advantage_gap": 20.0
+    },
+    {
+      "team_name": "LOSC Lille",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 61.2,
+      "away_matches": 152,
+      "away_win_pct": 35.5,
+      "home_advantage_gap": 25.7
+    },
+    {
+      "team_name": "Milan",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 60.9,
+      "away_matches": 152,
+      "away_win_pct": 40.8,
+      "home_advantage_gap": 20.1
+    },
+    {
+      "team_name": "AZ",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 60.3,
+      "away_matches": 136,
+      "away_win_pct": 42.6,
+      "home_advantage_gap": 17.6
+    },
+    {
+      "team_name": "Olympique Lyonnais",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 59.9,
+      "away_matches": 152,
+      "away_win_pct": 40.8,
+      "home_advantage_gap": 19.1
+    },
+    {
+      "team_name": "Sevilla FC",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 59.9,
+      "away_matches": 152,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": 28.3
+    },
+    {
+      "team_name": "Inter",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 59.6,
+      "away_matches": 152,
+      "away_win_pct": 42.1,
+      "home_advantage_gap": 17.5
+    },
+    {
+      "team_name": "BSC Young Boys",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 59.4,
+      "away_matches": 143,
+      "away_win_pct": 39.9,
+      "home_advantage_gap": 19.6
+    },
+    {
+      "team_name": "Valencia CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 59.2,
+      "away_matches": 152,
+      "away_win_pct": 34.2,
+      "home_advantage_gap": 25.0
+    },
+    {
+      "team_name": "FC Schalke 04",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 58.8,
+      "away_matches": 136,
+      "away_win_pct": 34.6,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "Tottenham Hotspur",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 57.9,
+      "away_matches": 152,
+      "away_win_pct": 41.4,
+      "home_advantage_gap": 16.4
+    },
+    {
+      "team_name": "Villarreal CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 133,
+      "home_win_pct": 57.9,
+      "away_matches": 133,
+      "away_win_pct": 26.3,
+      "home_advantage_gap": 31.6
+    },
+    {
+      "team_name": "KAA Gent",
+      "league": "Belgium Jupiler League",
+      "home_matches": 109,
+      "home_win_pct": 57.8,
+      "away_matches": 109,
+      "away_win_pct": 42.2,
+      "home_advantage_gap": 15.6
+    },
+    {
+      "team_name": "KRC Genk",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 57.5,
+      "away_matches": 106,
+      "away_win_pct": 34.0,
+      "home_advantage_gap": 23.6
+    },
+    {
+      "team_name": "Liverpool",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 56.6,
+      "away_matches": 152,
+      "away_win_pct": 42.1,
+      "home_advantage_gap": 14.5
+    },
+    {
+      "team_name": "Bayer 04 Leverkusen",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 55.9,
+      "away_matches": 136,
+      "away_win_pct": 44.9,
+      "home_advantage_gap": 11.0
+    },
+    {
+      "team_name": "VfL Wolfsburg",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 54.4,
+      "away_matches": 136,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": 22.8
+    },
+    {
+      "team_name": "Lazio",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 53.6,
+      "away_matches": 150,
+      "away_win_pct": 33.3,
+      "home_advantage_gap": 20.3
+    },
+    {
+      "team_name": "Montpellier H\u00e9rault SC",
+      "league": "France Ligue 1",
+      "home_matches": 133,
+      "home_win_pct": 53.4,
+      "away_matches": 133,
+      "away_win_pct": 29.3,
+      "home_advantage_gap": 24.1
+    },
+    {
+      "team_name": "Girondins de Bordeaux",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 53.3,
+      "away_matches": 152,
+      "away_win_pct": 29.6,
+      "home_advantage_gap": 23.7
+    },
+    {
+      "team_name": "Wis\u0142a Krak\u00f3w",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 53.3,
+      "away_matches": 120,
+      "away_win_pct": 36.7,
+      "home_advantage_gap": 16.7
+    },
+    {
+      "team_name": "Fiorentina",
+      "league": "Italy Serie A",
+      "home_matches": 150,
+      "home_win_pct": 53.3,
+      "away_matches": 150,
+      "away_win_pct": 34.7,
+      "home_advantage_gap": 18.7
+    },
+    {
+      "team_name": "FC Groningen",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 52.9,
+      "away_matches": 136,
+      "away_win_pct": 27.2,
+      "home_advantage_gap": 25.7
+    },
+    {
+      "team_name": "KV Kortrijk",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 52.8,
+      "away_matches": 106,
+      "away_win_pct": 24.5,
+      "home_advantage_gap": 28.3
+    },
+    {
+      "team_name": "Olympique de Marseille",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 52.6,
+      "away_matches": 152,
+      "away_win_pct": 41.4,
+      "home_advantage_gap": 11.2
+    },
+    {
+      "team_name": "Athletic Club de Bilbao",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 52.6,
+      "away_matches": 152,
+      "away_win_pct": 27.6,
+      "home_advantage_gap": 25.0
+    },
+    {
+      "team_name": "Jagiellonia Bia\u0142ystok",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 52.5,
+      "away_matches": 120,
+      "away_win_pct": 20.0,
+      "home_advantage_gap": 32.5
+    },
+    {
+      "team_name": "Borussia M\u00f6nchengladbach",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 52.2,
+      "away_matches": 136,
+      "away_win_pct": 27.9,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "RCD Mallorca",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 51.6,
+      "away_matches": 95,
+      "away_win_pct": 18.9,
+      "home_advantage_gap": 32.6
+    },
+    {
+      "team_name": "KV Oostende",
+      "league": "Belgium Jupiler League",
+      "home_matches": 33,
+      "home_win_pct": 51.5,
+      "away_matches": 33,
+      "away_win_pct": 36.4,
+      "home_advantage_gap": 15.2
+    },
+    {
+      "team_name": "Udinese",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 51.0,
+      "away_matches": 151,
+      "away_win_pct": 25.2,
+      "home_advantage_gap": 25.8
+    },
+    {
+      "team_name": "FC Utrecht",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 50.7,
+      "away_matches": 136,
+      "away_win_pct": 26.5,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "Palermo",
+      "league": "Italy Serie A",
+      "home_matches": 133,
+      "home_win_pct": 50.4,
+      "away_matches": 133,
+      "away_win_pct": 18.0,
+      "home_advantage_gap": 32.3
+    },
+    {
+      "team_name": "Catania",
+      "league": "Italy Serie A",
+      "home_matches": 113,
+      "home_win_pct": 50.4,
+      "away_matches": 111,
+      "away_win_pct": 9.0,
+      "home_advantage_gap": 41.4
+    },
+    {
+      "team_name": "Everton",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 50.0,
+      "away_matches": 152,
+      "away_win_pct": 29.6,
+      "home_advantage_gap": 20.4
+    },
+    {
+      "team_name": "Real Sociedad",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 114,
+      "home_win_pct": 50.0,
+      "away_matches": 114,
+      "away_win_pct": 23.7,
+      "home_advantage_gap": 26.3
+    },
+    {
+      "team_name": "SC Bastia",
+      "league": "France Ligue 1",
+      "home_matches": 76,
+      "home_win_pct": 50.0,
+      "away_matches": 76,
+      "away_win_pct": 17.1,
+      "home_advantage_gap": 32.9
+    },
+    {
+      "team_name": "Leicester City",
+      "league": "England Premier League",
+      "home_matches": 38,
+      "home_win_pct": 50.0,
+      "away_matches": 38,
+      "away_win_pct": 39.5,
+      "home_advantage_gap": 10.5
+    },
+    {
+      "team_name": "Grasshopper Club Z\u00fcrich",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 49.7,
+      "away_matches": 143,
+      "away_win_pct": 30.8,
+      "home_advantage_gap": 18.9
+    },
+    {
+      "team_name": "Heart of Midlothian",
+      "league": "Scotland Premier League",
+      "home_matches": 133,
+      "home_win_pct": 49.6,
+      "away_matches": 133,
+      "away_win_pct": 26.3,
+      "home_advantage_gap": 23.3
+    },
+    {
+      "team_name": "AS Saint-\u00c9tienne",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 49.3,
+      "away_matches": 152,
+      "away_win_pct": 30.3,
+      "home_advantage_gap": 19.1
+    },
+    {
+      "team_name": "\u015al\u0105sk Wroc\u0142aw",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 49.2,
+      "away_matches": 120,
+      "away_win_pct": 25.0,
+      "home_advantage_gap": 24.2
+    },
+    {
+      "team_name": "FC Sion",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 49.0,
+      "away_matches": 143,
+      "away_win_pct": 23.8,
+      "home_advantage_gap": 25.2
+    },
+    {
+      "team_name": "Genoa",
+      "league": "Italy Serie A",
+      "home_matches": 151,
+      "home_win_pct": 49.0,
+      "away_matches": 151,
+      "away_win_pct": 21.2,
+      "home_advantage_gap": 27.8
+    },
+    {
+      "team_name": "CD Nacional",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 48.4,
+      "away_matches": 124,
+      "away_win_pct": 27.4,
+      "home_advantage_gap": 21.0
+    },
+    {
+      "team_name": "SC Heerenveen",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 47.8,
+      "away_matches": 136,
+      "away_win_pct": 30.9,
+      "home_advantage_gap": 16.9
+    },
+    {
+      "team_name": "Southampton",
+      "league": "England Premier League",
+      "home_matches": 76,
+      "home_win_pct": 47.4,
+      "away_matches": 76,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "KV Mechelen",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 47.2,
+      "away_matches": 106,
+      "away_win_pct": 27.4,
+      "home_advantage_gap": 19.8
+    },
+    {
+      "team_name": "Estoril Praia",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 64,
+      "home_win_pct": 46.9,
+      "away_matches": 64,
+      "away_win_pct": 31.2,
+      "home_advantage_gap": 15.6
+    },
+    {
+      "team_name": "GKS Be\u0142chat\u00f3w",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 90,
+      "home_win_pct": 46.7,
+      "away_matches": 90,
+      "away_win_pct": 22.2,
+      "home_advantage_gap": 24.4
+    },
+    {
+      "team_name": "AS Monaco",
+      "league": "France Ligue 1",
+      "home_matches": 114,
+      "home_win_pct": 46.5,
+      "away_matches": 114,
+      "away_win_pct": 36.8,
+      "home_advantage_gap": 9.6
+    },
+    {
+      "team_name": "1. FSV Mainz 05",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 119,
+      "home_win_pct": 46.2,
+      "away_matches": 119,
+      "away_win_pct": 27.7,
+      "home_advantage_gap": 18.5
+    },
+    {
+      "team_name": "Motherwell",
+      "league": "Scotland Premier League",
+      "home_matches": 151,
+      "home_win_pct": 45.7,
+      "away_matches": 153,
+      "away_win_pct": 34.6,
+      "home_advantage_gap": 11.1
+    },
+    {
+      "team_name": "Fulham",
+      "league": "England Premier League",
+      "home_matches": 114,
+      "home_win_pct": 45.6,
+      "away_matches": 114,
+      "away_win_pct": 16.7,
+      "home_advantage_gap": 28.9
+    },
+    {
+      "team_name": "Hannover 96",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 45.6,
+      "away_matches": 136,
+      "away_win_pct": 21.3,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "PEC Zwolle",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 68,
+      "home_win_pct": 45.6,
+      "away_matches": 68,
+      "away_win_pct": 26.5,
+      "home_advantage_gap": 19.1
+    },
+    {
+      "team_name": "FC Luzern",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 45.5,
+      "away_matches": 143,
+      "away_win_pct": 28.0,
+      "home_advantage_gap": 17.5
+    },
+    {
+      "team_name": "OGC Nice",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 45.4,
+      "away_matches": 152,
+      "away_win_pct": 24.3,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "Stoke City",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 45.4,
+      "away_matches": 152,
+      "away_win_pct": 19.1,
+      "home_advantage_gap": 26.3
+    },
+    {
+      "team_name": "P. Warszawa",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 75,
+      "home_win_pct": 45.3,
+      "away_matches": 75,
+      "away_win_pct": 34.7,
+      "home_advantage_gap": 10.7
+    },
+    {
+      "team_name": "Ruch Chorz\u00f3w",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 45.0,
+      "away_matches": 120,
+      "away_win_pct": 31.7,
+      "home_advantage_gap": 13.3
+    },
+    {
+      "team_name": "CS Mar\u00edtimo",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 44.4,
+      "away_matches": 124,
+      "away_win_pct": 24.2,
+      "home_advantage_gap": 20.2
+    },
+    {
+      "team_name": "Parma",
+      "league": "Italy Serie A",
+      "home_matches": 113,
+      "home_win_pct": 44.2,
+      "away_matches": 113,
+      "away_win_pct": 21.2,
+      "home_advantage_gap": 23.0
+    },
+    {
+      "team_name": "Aberdeen",
+      "league": "Scotland Premier League",
+      "home_matches": 152,
+      "home_win_pct": 44.1,
+      "away_matches": 152,
+      "away_win_pct": 34.9,
+      "home_advantage_gap": 9.2
+    },
+    {
+      "team_name": "Vitesse",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 44.1,
+      "away_matches": 136,
+      "away_win_pct": 33.1,
+      "home_advantage_gap": 11.0
+    },
+    {
+      "team_name": "RCD Espanyol",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 44.1,
+      "away_matches": 152,
+      "away_win_pct": 19.7,
+      "home_advantage_gap": 24.3
+    },
+    {
+      "team_name": "M\u00e1laga CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 44.1,
+      "away_matches": 152,
+      "away_win_pct": 25.7,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "FC Sochaux-Montb\u00e9liard",
+      "league": "France Ligue 1",
+      "home_matches": 114,
+      "home_win_pct": 43.9,
+      "away_matches": 114,
+      "away_win_pct": 16.7,
+      "home_advantage_gap": 27.2
+    },
+    {
+      "team_name": "FC Z\u00fcrich",
+      "league": "Switzerland Super League",
+      "home_matches": 143,
+      "home_win_pct": 43.4,
+      "away_matches": 143,
+      "away_win_pct": 40.6,
+      "home_advantage_gap": 2.8
+    },
+    {
+      "team_name": "Dundee United",
+      "league": "Scotland Premier League",
+      "home_matches": 152,
+      "home_win_pct": 43.4,
+      "away_matches": 152,
+      "away_win_pct": 32.2,
+      "home_advantage_gap": 11.2
+    },
+    {
+      "team_name": "Heracles Almelo",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 43.4,
+      "away_matches": 136,
+      "away_win_pct": 25.0,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Pogo\u0144 Szczecin",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 60,
+      "home_win_pct": 43.3,
+      "away_matches": 60,
+      "away_win_pct": 26.7,
+      "home_advantage_gap": 16.7
+    },
+    {
+      "team_name": "Zawisza Bydgoszcz",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 30,
+      "home_win_pct": 43.3,
+      "away_matches": 30,
+      "away_win_pct": 20.0,
+      "home_advantage_gap": 23.3
+    },
+    {
+      "team_name": "Rayo Vallecano",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 43.2,
+      "away_matches": 95,
+      "away_win_pct": 26.3,
+      "home_advantage_gap": 16.8
+    },
+    {
+      "team_name": "Valenciennes FC",
+      "league": "France Ligue 1",
+      "home_matches": 114,
+      "home_win_pct": 43.0,
+      "away_matches": 114,
+      "away_win_pct": 14.0,
+      "home_advantage_gap": 28.9
+    },
+    {
+      "team_name": "Vit\u00f3ria Guimar\u00e3es",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 42.7,
+      "away_matches": 124,
+      "away_win_pct": 31.5,
+      "home_advantage_gap": 11.3
+    },
+    {
+      "team_name": "VfB Stuttgart",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 42.6,
+      "away_matches": 136,
+      "away_win_pct": 30.1,
+      "home_advantage_gap": 12.5
+    },
+    {
+      "team_name": "SV Zulte-Waregem",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 42.5,
+      "away_matches": 106,
+      "away_win_pct": 31.1,
+      "home_advantage_gap": 11.3
+    },
+    {
+      "team_name": "Piast Gliwice",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 90,
+      "home_win_pct": 42.2,
+      "away_matches": 90,
+      "away_win_pct": 30.0,
+      "home_advantage_gap": 12.2
+    },
+    {
+      "team_name": "Sampdoria",
+      "league": "Italy Serie A",
+      "home_matches": 133,
+      "home_win_pct": 42.1,
+      "away_matches": 133,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "CA Osasuna",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 114,
+      "home_win_pct": 42.1,
+      "away_matches": 114,
+      "away_win_pct": 16.7,
+      "home_advantage_gap": 25.4
+    },
+    {
+      "team_name": "Levante UD",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 114,
+      "home_win_pct": 42.1,
+      "away_matches": 114,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 23.7
+    },
+    {
+      "team_name": "Ross County FC",
+      "league": "Scotland Premier League",
+      "home_matches": 76,
+      "home_win_pct": 42.1,
+      "away_matches": 76,
+      "away_win_pct": 23.7,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Polonia Bytom",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 150,
+      "home_win_pct": 42.0,
+      "away_matches": 150,
+      "away_win_pct": 20.7,
+      "home_advantage_gap": 21.3
+    },
+    {
+      "team_name": "KSV Cercle Brugge",
+      "league": "Belgium Jupiler League",
+      "home_matches": 91,
+      "home_win_pct": 41.8,
+      "away_matches": 91,
+      "away_win_pct": 22.0,
+      "home_advantage_gap": 19.8
+    },
+    {
+      "team_name": "Atalanta",
+      "league": "Italy Serie A",
+      "home_matches": 132,
+      "home_win_pct": 41.7,
+      "away_matches": 131,
+      "away_win_pct": 18.3,
+      "home_advantage_gap": 23.3
+    },
+    {
+      "team_name": "Stade Rennais FC",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 41.4,
+      "away_matches": 152,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": 9.9
+    },
+    {
+      "team_name": "West Ham United",
+      "league": "England Premier League",
+      "home_matches": 133,
+      "home_win_pct": 41.4,
+      "away_matches": 133,
+      "away_win_pct": 18.8,
+      "home_advantage_gap": 22.6
+    },
+    {
+      "team_name": "SV Werder Bremen",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 41.2,
+      "away_matches": 136,
+      "away_win_pct": 24.3,
+      "home_advantage_gap": 16.9
+    },
+    {
+      "team_name": "FC Thun",
+      "league": "Switzerland Super League",
+      "home_matches": 107,
+      "home_win_pct": 41.1,
+      "away_matches": 107,
+      "away_win_pct": 25.2,
+      "home_advantage_gap": 15.9
+    },
+    {
+      "team_name": "Korona Kielce",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 105,
+      "home_win_pct": 41.0,
+      "away_matches": 105,
+      "away_win_pct": 24.8,
+      "home_advantage_gap": 16.2
+    },
+    {
+      "team_name": "AJ Auxerre",
+      "league": "France Ligue 1",
+      "home_matches": 76,
+      "home_win_pct": 40.8,
+      "away_matches": 76,
+      "away_win_pct": 28.9,
+      "home_advantage_gap": 11.8
+    },
+    {
+      "team_name": "FC Lorient",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 40.8,
+      "away_matches": 152,
+      "away_win_pct": 23.0,
+      "home_advantage_gap": 17.8
+    },
+    {
+      "team_name": "Toulouse FC",
+      "league": "France Ligue 1",
+      "home_matches": 152,
+      "home_win_pct": 40.8,
+      "away_matches": 152,
+      "away_win_pct": 27.0,
+      "home_advantage_gap": 13.8
+    },
+    {
+      "team_name": "Getafe CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 152,
+      "home_win_pct": 40.8,
+      "away_matches": 152,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 19.7
+    },
+    {
+      "team_name": "Hamburger SV",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 40.4,
+      "away_matches": 136,
+      "away_win_pct": 27.9,
+      "home_advantage_gap": 12.5
+    },
+    {
+      "team_name": "En Avant de Guingamp",
+      "league": "France Ligue 1",
+      "home_matches": 57,
+      "home_win_pct": 40.4,
+      "away_matches": 57,
+      "away_win_pct": 24.6,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "NAC Breda",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 119,
+      "home_win_pct": 40.3,
+      "away_matches": 119,
+      "away_win_pct": 19.3,
+      "home_advantage_gap": 21.0
+    },
+    {
+      "team_name": "St. Johnstone FC",
+      "league": "Scotland Premier League",
+      "home_matches": 132,
+      "home_win_pct": 40.2,
+      "away_matches": 134,
+      "away_win_pct": 33.6,
+      "home_advantage_gap": 6.6
+    },
+    {
+      "team_name": "Cracovia",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 105,
+      "home_win_pct": 40.0,
+      "away_matches": 105,
+      "away_win_pct": 18.1,
+      "home_advantage_gap": 21.9
+    },
+    {
+      "team_name": "Real Sporting de Gij\u00f3n",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 40.0,
+      "away_matches": 95,
+      "away_win_pct": 16.8,
+      "home_advantage_gap": 23.2
+    },
+    {
+      "team_name": "G\u00f3rnik \u0141\u0119czna",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 30,
+      "home_win_pct": 40.0,
+      "away_matches": 30,
+      "away_win_pct": 13.3,
+      "home_advantage_gap": 26.7
+    },
+    {
+      "team_name": "Newcastle United",
+      "league": "England Premier League",
+      "home_matches": 133,
+      "home_win_pct": 39.8,
+      "away_matches": 133,
+      "away_win_pct": 21.8,
+      "home_advantage_gap": 18.0
+    },
+    {
+      "team_name": "FC St. Gallen",
+      "league": "Switzerland Super League",
+      "home_matches": 108,
+      "home_win_pct": 39.8,
+      "away_matches": 108,
+      "away_win_pct": 26.9,
+      "home_advantage_gap": 13.0
+    },
+    {
+      "team_name": "Beerschot AC",
+      "league": "Belgium Jupiler League",
+      "home_matches": 76,
+      "home_win_pct": 39.5,
+      "away_matches": 76,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 26.3
+    },
+    {
+      "team_name": "Stade de Reims",
+      "league": "France Ligue 1",
+      "home_matches": 76,
+      "home_win_pct": 39.5,
+      "away_matches": 76,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "RC Celta de Vigo",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 76,
+      "home_win_pct": 39.5,
+      "away_matches": 76,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": 7.9
+    },
+    {
+      "team_name": "Cagliari",
+      "league": "Italy Serie A",
+      "home_matches": 132,
+      "home_win_pct": 39.4,
+      "away_matches": 132,
+      "away_win_pct": 18.2,
+      "home_advantage_gap": 21.2
+    },
+    {
+      "team_name": "Lechia Gda\u0144sk",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 120,
+      "home_win_pct": 39.2,
+      "away_matches": 120,
+      "away_win_pct": 25.8,
+      "home_advantage_gap": 13.3
+    },
+    {
+      "team_name": "SC Cambuur",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 51,
+      "home_win_pct": 39.2,
+      "away_matches": 51,
+      "away_win_pct": 7.8,
+      "home_advantage_gap": 31.4
+    },
+    {
+      "team_name": "Zag\u0142\u0119bie Lubin",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 90,
+      "home_win_pct": 38.9,
+      "away_matches": 90,
+      "away_win_pct": 26.7,
+      "home_advantage_gap": 12.2
+    },
+    {
+      "team_name": "Swansea City",
+      "league": "England Premier League",
+      "home_matches": 95,
+      "home_win_pct": 38.9,
+      "away_matches": 95,
+      "away_win_pct": 26.3,
+      "home_advantage_gap": 12.6
+    },
+    {
+      "team_name": "Sporting Lokeren",
+      "league": "Belgium Jupiler League",
+      "home_matches": 106,
+      "home_win_pct": 38.7,
+      "away_matches": 106,
+      "away_win_pct": 31.1,
+      "home_advantage_gap": 7.5
+    },
+    {
+      "team_name": "Eintracht Frankfurt",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 119,
+      "home_win_pct": 38.7,
+      "away_matches": 119,
+      "away_win_pct": 21.8,
+      "home_advantage_gap": 16.8
+    },
+    {
+      "team_name": "FC Pa\u00e7os de Ferreira",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 38.7,
+      "away_matches": 124,
+      "away_win_pct": 25.8,
+      "home_advantage_gap": 12.9
+    },
+    {
+      "team_name": "KVC Westerlo",
+      "league": "Belgium Jupiler League",
+      "home_matches": 91,
+      "home_win_pct": 38.5,
+      "away_matches": 91,
+      "away_win_pct": 20.9,
+      "home_advantage_gap": 17.6
+    },
+    {
+      "team_name": "Sporting Charleroi",
+      "league": "Belgium Jupiler League",
+      "home_matches": 91,
+      "home_win_pct": 38.5,
+      "away_matches": 91,
+      "away_win_pct": 22.0,
+      "home_advantage_gap": 16.5
+    },
+    {
+      "team_name": "Royal Excel Mouscron",
+      "league": "Belgium Jupiler League",
+      "home_matches": 47,
+      "home_win_pct": 38.3,
+      "away_matches": 47,
+      "away_win_pct": 17.0,
+      "home_advantage_gap": 21.3
+    },
+    {
+      "team_name": "Blackburn Rovers",
+      "league": "England Premier League",
+      "home_matches": 76,
+      "home_win_pct": 38.2,
+      "away_matches": 76,
+      "away_win_pct": 17.1,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "TSG 1899 Hoffenheim",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 136,
+      "home_win_pct": 38.2,
+      "away_matches": 136,
+      "away_win_pct": 25.7,
+      "home_advantage_gap": 12.5
+    },
+    {
+      "team_name": "Real Zaragoza",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 76,
+      "home_win_pct": 38.2,
+      "away_matches": 76,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 19.7
+    },
+    {
+      "team_name": "\u00c9vian Thonon Gaillard FC",
+      "league": "France Ligue 1",
+      "home_matches": 76,
+      "home_win_pct": 38.2,
+      "away_matches": 76,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 17.1
+    },
+    {
+      "team_name": "Torino",
+      "league": "Italy Serie A",
+      "home_matches": 95,
+      "home_win_pct": 37.9,
+      "away_matches": 95,
+      "away_win_pct": 22.1,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "FC Augsburg",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 85,
+      "home_win_pct": 37.6,
+      "away_matches": 85,
+      "away_win_pct": 27.1,
+      "home_advantage_gap": 10.6
+    },
+    {
+      "team_name": "Hertha BSC Berlin",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 102,
+      "home_win_pct": 37.3,
+      "away_matches": 102,
+      "away_win_pct": 26.5,
+      "home_advantage_gap": 10.8
+    },
+    {
+      "team_name": "SC Freiburg",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 102,
+      "home_win_pct": 37.3,
+      "away_matches": 102,
+      "away_win_pct": 23.5,
+      "home_advantage_gap": 13.7
+    },
+    {
+      "team_name": "Roda JC Kerkrade",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 119,
+      "home_win_pct": 37.0,
+      "away_matches": 119,
+      "away_win_pct": 22.7,
+      "home_advantage_gap": 14.3
+    },
+    {
+      "team_name": "N.E.C.",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 119,
+      "home_win_pct": 37.0,
+      "away_matches": 119,
+      "away_win_pct": 20.2,
+      "home_advantage_gap": 16.8
+    },
+    {
+      "team_name": "FC Nantes",
+      "league": "France Ligue 1",
+      "home_matches": 76,
+      "home_win_pct": 36.8,
+      "away_matches": 76,
+      "away_win_pct": 22.4,
+      "home_advantage_gap": 14.5
+    },
+    {
+      "team_name": "ADO Den Haag",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 136,
+      "home_win_pct": 36.8,
+      "away_matches": 136,
+      "away_win_pct": 21.3,
+      "home_advantage_gap": 15.4
+    },
+    {
+      "team_name": "RC Deportivo de La Coru\u00f1a",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 114,
+      "home_win_pct": 36.8,
+      "away_matches": 114,
+      "away_win_pct": 17.5,
+      "home_advantage_gap": 19.3
+    },
+    {
+      "team_name": "RKC Waalwijk",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 68,
+      "home_win_pct": 36.8,
+      "away_matches": 68,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 23.5
+    },
+    {
+      "team_name": "Birmingham City",
+      "league": "England Premier League",
+      "home_matches": 38,
+      "home_win_pct": 36.8,
+      "away_matches": 38,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Hellas Verona",
+      "league": "Italy Serie A",
+      "home_matches": 57,
+      "home_win_pct": 36.8,
+      "away_matches": 57,
+      "away_win_pct": 19.3,
+      "home_advantage_gap": 17.5
+    },
+    {
+      "team_name": "FC Arouca",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 49,
+      "home_win_pct": 36.7,
+      "away_matches": 49,
+      "away_win_pct": 20.4,
+      "home_advantage_gap": 16.3
+    },
+    {
+      "team_name": "Inverness Caledonian Thistle",
+      "league": "Scotland Premier League",
+      "home_matches": 133,
+      "home_win_pct": 36.1,
+      "away_matches": 133,
+      "away_win_pct": 36.1,
+      "home_advantage_gap": 0.0
+    },
+    {
+      "team_name": "SM Caen",
+      "league": "France Ligue 1",
+      "home_matches": 95,
+      "home_win_pct": 35.8,
+      "away_matches": 95,
+      "away_win_pct": 23.2,
+      "home_advantage_gap": 12.6
+    },
+    {
+      "team_name": "Arka Gdynia",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 45,
+      "home_win_pct": 35.6,
+      "away_matches": 45,
+      "away_win_pct": 8.9,
+      "home_advantage_gap": 26.7
+    },
+    {
+      "team_name": "Oud-Heverlee Leuven",
+      "league": "Belgium Jupiler League",
+      "home_matches": 45,
+      "home_win_pct": 35.6,
+      "away_matches": 45,
+      "away_win_pct": 13.3,
+      "home_advantage_gap": 22.2
+    },
+    {
+      "team_name": "Bolton Wanderers",
+      "league": "England Premier League",
+      "home_matches": 76,
+      "home_win_pct": 35.5,
+      "away_matches": 76,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 14.5
+    },
+    {
+      "team_name": "Norwich City",
+      "league": "England Premier League",
+      "home_matches": 76,
+      "home_win_pct": 35.5,
+      "away_matches": 76,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 19.7
+    },
+    {
+      "team_name": "West Bromwich Albion",
+      "league": "England Premier League",
+      "home_matches": 133,
+      "home_win_pct": 35.3,
+      "away_matches": 133,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 14.3
+    },
+    {
+      "team_name": "Sparta Rotterdam",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 34,
+      "home_win_pct": 35.3,
+      "away_matches": 34,
+      "away_win_pct": 8.8,
+      "home_advantage_gap": 26.5
+    },
+    {
+      "team_name": "1. FC N\u00fcrnberg",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 85,
+      "home_win_pct": 35.3,
+      "away_matches": 85,
+      "away_win_pct": 22.4,
+      "home_advantage_gap": 12.9
+    },
+    {
+      "team_name": "Boavista FC",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 34,
+      "home_win_pct": 35.3,
+      "away_matches": 34,
+      "away_win_pct": 14.7,
+      "home_advantage_gap": 20.6
+    },
+    {
+      "team_name": "Crystal Palace",
+      "league": "England Premier League",
+      "home_matches": 57,
+      "home_win_pct": 35.1,
+      "away_matches": 57,
+      "away_win_pct": 29.8,
+      "home_advantage_gap": 5.3
+    },
+    {
+      "team_name": "Sassuolo",
+      "league": "Italy Serie A",
+      "home_matches": 57,
+      "home_win_pct": 35.1,
+      "away_matches": 57,
+      "away_win_pct": 29.8,
+      "home_advantage_gap": 5.3
+    },
+    {
+      "team_name": "Neuch\u00e2tel Xamax",
+      "league": "Switzerland Super League",
+      "home_matches": 63,
+      "home_win_pct": 34.9,
+      "away_matches": 63,
+      "away_win_pct": 22.2,
+      "home_advantage_gap": 12.7
+    },
+    {
+      "team_name": "FC Aarau",
+      "league": "Switzerland Super League",
+      "home_matches": 72,
+      "home_win_pct": 34.7,
+      "away_matches": 72,
+      "away_win_pct": 13.9,
+      "home_advantage_gap": 20.8
+    },
+    {
+      "team_name": "Rio Ave FC",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 34.7,
+      "away_matches": 124,
+      "away_win_pct": 25.8,
+      "home_advantage_gap": 8.9
+    },
+    {
+      "team_name": "Siena",
+      "league": "Italy Serie A",
+      "home_matches": 75,
+      "home_win_pct": 34.7,
+      "away_matches": 75,
+      "away_win_pct": 14.7,
+      "home_advantage_gap": 20.0
+    },
+    {
+      "team_name": "Portsmouth",
+      "league": "England Premier League",
+      "home_matches": 38,
+      "home_win_pct": 34.2,
+      "away_matches": 38,
+      "away_win_pct": 10.5,
+      "home_advantage_gap": 23.7
+    },
+    {
+      "team_name": "Bari",
+      "league": "Italy Serie A",
+      "home_matches": 38,
+      "home_win_pct": 34.2,
+      "away_matches": 38,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "SD Eibar",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 38,
+      "home_win_pct": 34.2,
+      "away_matches": 38,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "Empoli",
+      "league": "Italy Serie A",
+      "home_matches": 38,
+      "home_win_pct": 34.2,
+      "away_matches": 38,
+      "away_win_pct": 18.4,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "RAEC Mons",
+      "league": "Belgium Jupiler League",
+      "home_matches": 47,
+      "home_win_pct": 34.0,
+      "away_matches": 47,
+      "away_win_pct": 19.1,
+      "home_advantage_gap": 14.9
+    },
+    {
+      "team_name": "VVV-Venlo",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 68,
+      "home_win_pct": 33.8,
+      "away_matches": 68,
+      "away_win_pct": 8.8,
+      "home_advantage_gap": 25.0
+    },
+    {
+      "team_name": "Widzew \u0141\u00f3d\u017a",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 90,
+      "home_win_pct": 33.3,
+      "away_matches": 90,
+      "away_win_pct": 20.0,
+      "home_advantage_gap": 13.3
+    },
+    {
+      "team_name": "Odra Wodzis\u0142aw",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 30,
+      "home_win_pct": 33.3,
+      "away_matches": 30,
+      "away_win_pct": 16.7,
+      "home_advantage_gap": 16.7
+    },
+    {
+      "team_name": "RC Lens",
+      "league": "France Ligue 1",
+      "home_matches": 57,
+      "home_win_pct": 33.3,
+      "away_matches": 57,
+      "away_win_pct": 12.3,
+      "home_advantage_gap": 21.1
+    },
+    {
+      "team_name": "Uni\u00e3o de Leiria, SAD",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 45,
+      "home_win_pct": 33.3,
+      "away_matches": 45,
+      "away_win_pct": 17.8,
+      "home_advantage_gap": 15.6
+    },
+    {
+      "team_name": "Vit\u00f3ria Set\u00fabal",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 33.1,
+      "away_matches": 124,
+      "away_win_pct": 13.7,
+      "home_advantage_gap": 19.4
+    },
+    {
+      "team_name": "Real Valladolid",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 76,
+      "home_win_pct": 32.9,
+      "away_matches": 76,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 17.1
+    },
+    {
+      "team_name": "Real Betis Balompi\u00e9",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 32.6,
+      "away_matches": 95,
+      "away_win_pct": 26.3,
+      "home_advantage_gap": 6.3
+    },
+    {
+      "team_name": "UD Almer\u00eda",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 32.6,
+      "away_matches": 95,
+      "away_win_pct": 17.9,
+      "home_advantage_gap": 14.7
+    },
+    {
+      "team_name": "Granada CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 95,
+      "home_win_pct": 32.6,
+      "away_matches": 95,
+      "away_win_pct": 22.1,
+      "home_advantage_gap": 10.5
+    },
+    {
+      "team_name": "Go Ahead Eagles",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 34,
+      "home_win_pct": 32.4,
+      "away_matches": 34,
+      "away_win_pct": 17.6,
+      "home_advantage_gap": 14.7
+    },
+    {
+      "team_name": "Sunderland",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 32.2,
+      "away_matches": 152,
+      "away_win_pct": 19.1,
+      "home_advantage_gap": 13.2
+    },
+    {
+      "team_name": "Le Mans FC",
+      "league": "France Ligue 1",
+      "home_matches": 38,
+      "home_win_pct": 31.6,
+      "away_matches": 38,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "AS Nancy-Lorraine",
+      "league": "France Ligue 1",
+      "home_matches": 95,
+      "home_win_pct": 31.6,
+      "away_matches": 95,
+      "away_win_pct": 27.4,
+      "home_advantage_gap": 4.2
+    },
+    {
+      "team_name": "Kilmarnock",
+      "league": "Scotland Premier League",
+      "home_matches": 152,
+      "home_win_pct": 31.6,
+      "away_matches": 152,
+      "away_win_pct": 25.0,
+      "home_advantage_gap": 6.6
+    },
+    {
+      "team_name": "Stade Brestois 29",
+      "league": "France Ligue 1",
+      "home_matches": 57,
+      "home_win_pct": 31.6,
+      "away_matches": 57,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 15.8
+    },
+    {
+      "team_name": "Elche CF",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 38,
+      "home_win_pct": 31.6,
+      "away_matches": 38,
+      "away_win_pct": 21.1,
+      "home_advantage_gap": 10.5
+    },
+    {
+      "team_name": "AC Bellinzona",
+      "league": "Switzerland Super League",
+      "home_matches": 54,
+      "home_win_pct": 31.5,
+      "away_matches": 54,
+      "away_win_pct": 14.8,
+      "home_advantage_gap": 16.7
+    },
+    {
+      "team_name": "1. FC K\u00f6ln",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 102,
+      "home_win_pct": 31.4,
+      "away_matches": 102,
+      "away_win_pct": 27.5,
+      "home_advantage_gap": 3.9
+    },
+    {
+      "team_name": "Servette FC",
+      "league": "Switzerland Super League",
+      "home_matches": 35,
+      "home_win_pct": 31.4,
+      "away_matches": 35,
+      "away_win_pct": 25.7,
+      "home_advantage_gap": 5.7
+    },
+    {
+      "team_name": "Bologna",
+      "league": "Italy Serie A",
+      "home_matches": 131,
+      "home_win_pct": 31.3,
+      "away_matches": 132,
+      "away_win_pct": 20.5,
+      "home_advantage_gap": 10.8
+    },
+    {
+      "team_name": "Sint-Truidense VV",
+      "league": "Belgium Jupiler League",
+      "home_matches": 59,
+      "home_win_pct": 30.5,
+      "away_matches": 59,
+      "away_win_pct": 22.0,
+      "home_advantage_gap": 8.5
+    },
+    {
+      "team_name": "Willem II",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 102,
+      "home_win_pct": 30.4,
+      "away_matches": 102,
+      "away_win_pct": 12.7,
+      "home_advantage_gap": 17.6
+    },
+    {
+      "team_name": "Chievo Verona",
+      "league": "Italy Serie A",
+      "home_matches": 152,
+      "home_win_pct": 30.3,
+      "away_matches": 151,
+      "away_win_pct": 27.2,
+      "home_advantage_gap": 3.1
+    },
+    {
+      "team_name": "FC Lausanne-Sports",
+      "league": "Switzerland Super League",
+      "home_matches": 53,
+      "home_win_pct": 30.2,
+      "away_matches": 53,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 17.0
+    },
+    {
+      "team_name": "Leix\u00f5es SC",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 30,
+      "home_win_pct": 30.0,
+      "away_matches": 30,
+      "away_win_pct": 26.7,
+      "home_advantage_gap": 3.3
+    },
+    {
+      "team_name": "Aston Villa",
+      "league": "England Premier League",
+      "home_matches": 152,
+      "home_win_pct": 29.6,
+      "away_matches": 152,
+      "away_win_pct": 27.0,
+      "home_advantage_gap": 2.6
+    },
+    {
+      "team_name": "Wigan Athletic",
+      "league": "England Premier League",
+      "home_matches": 95,
+      "home_win_pct": 29.5,
+      "away_matches": 95,
+      "away_win_pct": 23.2,
+      "home_advantage_gap": 6.3
+    },
+    {
+      "team_name": "Waasland-Beveren",
+      "league": "Belgium Jupiler League",
+      "home_matches": 48,
+      "home_win_pct": 29.2,
+      "away_matches": 48,
+      "away_win_pct": 20.8,
+      "home_advantage_gap": 8.3
+    },
+    {
+      "team_name": "Gil Vicente FC",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 62,
+      "home_win_pct": 29.0,
+      "away_matches": 62,
+      "away_win_pct": 12.9,
+      "home_advantage_gap": 16.1
+    },
+    {
+      "team_name": "Naval 1\u00b0 de Maio",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 45,
+      "home_win_pct": 28.9,
+      "away_matches": 45,
+      "away_win_pct": 20.0,
+      "home_advantage_gap": 8.9
+    },
+    {
+      "team_name": "Burnley",
+      "league": "England Premier League",
+      "home_matches": 38,
+      "home_win_pct": 28.9,
+      "away_matches": 38,
+      "away_win_pct": 10.5,
+      "home_advantage_gap": 18.4
+    },
+    {
+      "team_name": "Hibernian",
+      "league": "Scotland Premier League",
+      "home_matches": 115,
+      "home_win_pct": 28.7,
+      "away_matches": 113,
+      "away_win_pct": 28.3,
+      "home_advantage_gap": 0.4
+    },
+    {
+      "team_name": "Acad\u00e9mica de Coimbra",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 124,
+      "home_win_pct": 28.2,
+      "away_matches": 124,
+      "away_win_pct": 16.9,
+      "home_advantage_gap": 11.3
+    },
+    {
+      "team_name": "Wolverhampton Wanderers",
+      "league": "England Premier League",
+      "home_matches": 57,
+      "home_win_pct": 28.1,
+      "away_matches": 57,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 12.3
+    },
+    {
+      "team_name": "AC Ajaccio",
+      "league": "France Ligue 1",
+      "home_matches": 57,
+      "home_win_pct": 28.1,
+      "away_matches": 57,
+      "away_win_pct": 10.5,
+      "home_advantage_gap": 17.5
+    },
+    {
+      "team_name": "Partick Thistle F.C.",
+      "league": "Scotland Premier League",
+      "home_matches": 57,
+      "home_win_pct": 28.1,
+      "away_matches": 57,
+      "away_win_pct": 28.1,
+      "home_advantage_gap": 0.0
+    },
+    {
+      "team_name": "Excelsior",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 68,
+      "home_win_pct": 27.9,
+      "away_matches": 68,
+      "away_win_pct": 11.8,
+      "home_advantage_gap": 16.2
+    },
+    {
+      "team_name": "CF Os Belenenses",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 79,
+      "home_win_pct": 27.8,
+      "away_matches": 79,
+      "away_win_pct": 19.0,
+      "home_advantage_gap": 8.9
+    },
+    {
+      "team_name": "Hull City",
+      "league": "England Premier League",
+      "home_matches": 76,
+      "home_win_pct": 27.6,
+      "away_matches": 76,
+      "away_win_pct": 14.5,
+      "home_advantage_gap": 13.2
+    },
+    {
+      "team_name": "Dundee FC",
+      "league": "Scotland Premier League",
+      "home_matches": 58,
+      "home_win_pct": 27.6,
+      "away_matches": 56,
+      "away_win_pct": 23.2,
+      "home_advantage_gap": 4.4
+    },
+    {
+      "team_name": "Hamilton Academical FC",
+      "league": "Scotland Premier League",
+      "home_matches": 95,
+      "home_win_pct": 27.4,
+      "away_matches": 95,
+      "away_win_pct": 31.6,
+      "home_advantage_gap": -4.2
+    },
+    {
+      "team_name": "SC Beira Mar",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 45,
+      "home_win_pct": 26.7,
+      "away_matches": 45,
+      "away_win_pct": 17.8,
+      "home_advantage_gap": 8.9
+    },
+    {
+      "team_name": "De Graafschap",
+      "league": "Netherlands Eredivisie",
+      "home_matches": 68,
+      "home_win_pct": 26.5,
+      "away_matches": 68,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 13.2
+    },
+    {
+      "team_name": "Grenoble Foot 38",
+      "league": "France Ligue 1",
+      "home_matches": 38,
+      "home_win_pct": 26.3,
+      "away_matches": 38,
+      "away_win_pct": 13.2,
+      "home_advantage_gap": 13.2
+    },
+    {
+      "team_name": "Racing Santander",
+      "league": "Spain LIGA BBVA",
+      "home_matches": 76,
+      "home_win_pct": 26.3,
+      "away_matches": 76,
+      "away_win_pct": 22.4,
+      "home_advantage_gap": 3.9
+    },
+    {
+      "team_name": "Queens Park Rangers",
+      "league": "England Premier League",
+      "home_matches": 57,
+      "home_win_pct": 26.3,
+      "away_matches": 57,
+      "away_win_pct": 12.3,
+      "home_advantage_gap": 14.0
+    },
+    {
+      "team_name": "KSV Roeselare",
+      "league": "Belgium Jupiler League",
+      "home_matches": 31,
+      "home_win_pct": 25.8,
+      "away_matches": 31,
+      "away_win_pct": 12.9,
+      "home_advantage_gap": 12.9
+    },
+    {
+      "team_name": "St. Mirren",
+      "league": "Scotland Premier League",
+      "home_matches": 133,
+      "home_win_pct": 25.6,
+      "away_matches": 133,
+      "away_win_pct": 20.3,
+      "home_advantage_gap": 5.3
+    },
+    {
+      "team_name": "S.C. Olhanense",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 75,
+      "home_win_pct": 25.3,
+      "away_matches": 75,
+      "away_win_pct": 17.3,
+      "home_advantage_gap": 8.0
+    },
+    {
+      "team_name": "Podbeskidzie Bielsko-Bia\u0142a",
+      "league": "Poland Ekstraklasa",
+      "home_matches": 75,
+      "home_win_pct": 25.3,
+      "away_matches": 75,
+      "away_win_pct": 30.7,
+      "home_advantage_gap": -5.3
+    },
+    {
+      "team_name": "Moreirense FC",
+      "league": "Portugal Liga ZON Sagres",
+      "home_matches": 49,
+      "home_win_pct": 24.5,
+      "away_matches": 49,
+      "away_win_pct": 26.5,
+      "home_advantage_gap": -2.0
+    },
+    {
+      "team_name": "Lierse SK",
+      "league": "Belgium Jupiler League",
+      "home_matches": 63,
+      "home_win_pct": 23.8,
+      "away_matches": 63,
+      "away_win_pct": 11.1,
+      "home_advantage_gap": 12.7
+    },
+    {
+      "team_name": "Falkirk",
+      "league": "Scotland Premier League",
+      "home_matches": 38,
+      "home_win_pct": 23.7,
+      "away_matches": 38,
+      "away_win_pct": 15.8,
+      "home_advantage_gap": 7.9
+    },
+    {
+      "team_name": "Livorno",
+      "league": "Italy Serie A",
+      "home_matches": 38,
+      "home_win_pct": 23.7,
+      "away_matches": 38,
+      "away_win_pct": 10.5,
+      "home_advantage_gap": 13.2
+    },
+    {
+      "team_name": "Lecce",
+      "league": "Italy Serie A",
+      "home_matches": 55,
+      "home_win_pct": 23.6,
+      "away_matches": 56,
+      "away_win_pct": 19.6,
+      "home_advantage_gap": 4.0
+    },
+    {
+      "team_name": "1. FC Kaiserslautern",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 34,
+      "home_win_pct": 23.5,
+      "away_matches": 34,
+      "away_win_pct": 26.5,
+      "home_advantage_gap": -2.9
+    },
+    {
+      "team_name": "Cesena",
+      "league": "Italy Serie A",
+      "home_matches": 55,
+      "home_win_pct": 21.8,
+      "away_matches": 55,
+      "away_win_pct": 12.7,
+      "home_advantage_gap": 9.1
+    },
+    {
+      "team_name": "VfL Bochum",
+      "league": "Germany 1. Bundesliga",
+      "home_matches": 34,
+      "home_win_pct": 20.6,
+      "away_matches": 34,
+      "away_win_pct": 17.6,
+      "home_advantage_gap": 2.9
+    },
+    {
+      "team_name": "FC Vaduz",
+      "league": "Switzerland Super League",
+      "home_matches": 54,
+      "home_win_pct": 18.5,
+      "away_matches": 54,
+      "away_win_pct": 16.7,
+      "home_advantage_gap": 1.9
+    },
+    {
+      "team_name": "ES Troyes AC",
+      "league": "France Ligue 1",
+      "home_matches": 38,
+      "home_win_pct": 18.4,
+      "away_matches": 38,
+      "away_win_pct": 10.5,
+      "home_advantage_gap": 7.9
+    }
+  ]
+}
