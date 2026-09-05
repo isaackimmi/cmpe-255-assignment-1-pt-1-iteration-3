@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/layout/Navbar';
 import { Hero } from './components/layout/Hero';
+import { CrispDmOverview } from './components/crispdm/CrispDmOverview';
 import { EdaDashboard } from './components/eda/EdaDashboard';
 import { ModelComparison } from './components/models/ModelComparison';
 import { MatchExplorer } from './components/explorer/MatchExplorer';
@@ -81,7 +82,10 @@ export const App: React.FC = () => {
               onExploreMatches={() => setActiveTab('explorer')}
               onOpenSimulator={() => setActiveTab('simulator')}
             />
-            {/* Embedded summary sections in Overview */}
+            {/* Embedded sections in Overview */}
+            <div className="border-t border-slate-800/80">
+              <CrispDmOverview onNavigateTab={setActiveTab} />
+            </div>
             <div className="border-t border-slate-800/80">
               <EdaDashboard
                 summary={edaSummary}
@@ -95,6 +99,10 @@ export const App: React.FC = () => {
               <ModelComparison data={modelsData} featureWeights={featureWeights} />
             </div>
           </div>
+        )}
+
+        {activeTab === 'crispdm' && (
+          <CrispDmOverview onNavigateTab={setActiveTab} />
         )}
 
         {activeTab === 'eda' && (

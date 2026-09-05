@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, BarChart3, BrainCircuit, Search, PlayCircle } from 'lucide-react';
+import { Trophy, Layers, BarChart3, BrainCircuit, Search, PlayCircle } from 'lucide-react';
 
 interface NavbarProps {
   activeTab: string;
@@ -9,6 +9,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const tabs = [
     { id: 'overview', label: 'Overview', icon: Trophy },
+    { id: 'crispdm', label: 'CRISP-DM', icon: Layers },
     { id: 'eda', label: 'Home Advantage', icon: BarChart3 },
     { id: 'models', label: 'Models & Calibration', icon: BrainCircuit },
     { id: 'explorer', label: 'Match Explorer', icon: Search },
@@ -20,8 +21,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
           {/* Brand Logo & Title */}
-          <div className="flex items-center space-x-3 flex-shrink-0">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-emerald-500/20 text-black font-bold text-lg flex-shrink-0">
+          <div 
+            onClick={() => setActiveTab('overview')}
+            className="flex items-center space-x-3 flex-shrink-0 cursor-pointer group"
+          >
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-emerald-500/20 text-black font-bold text-lg flex-shrink-0 group-hover:scale-105 transition-transform">
               ⚽
             </div>
             <div className="flex flex-col justify-center">

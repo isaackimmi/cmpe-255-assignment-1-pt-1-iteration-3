@@ -9,7 +9,7 @@ This project utilizes the **European Soccer Database** by Hugo Mathien hosted on
 2. Extract the archive to find `database.sqlite`.
 3. Place the file at:
    ```text
-   cmpe-255-assignment-1-pt1-iteration-3/data/database.sqlite
+   cmpe-255-assignment-1-pt-1-iteration-3/data/database.sqlite
    ```
 
 ## Tables Utilized

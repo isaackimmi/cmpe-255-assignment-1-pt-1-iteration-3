@@ -17,8 +17,8 @@
 Launch both the **FastAPI Data Science Backend** and the **React + Vite Frontend** with a single command:
 
 ```bash
-git clone https://github.com/isaackimmi/cmpe-255-assignment-1-pt-2-iteration-3.git
-cd cmpe-255-assignment-1-pt-2-iteration-3
+git clone https://github.com/isaackimmi/cmpe-255-assignment-1-pt-1-iteration-3.git
+cd cmpe-255-assignment-1-pt-1-iteration-3
 ./run_demo.sh
 ```
 
@@ -74,7 +74,7 @@ graph LR
 ## 🏗️ Project Architecture
 
 ```
-cmpe-255-assignment-1-pt-2-iteration-3/
+cmpe-255-assignment-1-pt-1-iteration-3/
 ├── README.md                      # Master documentation and results summary
 ├── IMPLEMENTATION_PLAN.md         # Detailed CRISP-DM technical design
 ├── EXPLANATION.md                 # 360° Data Science concepts & presentation guide
