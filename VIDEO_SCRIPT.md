@@ -22,16 +22,20 @@
 
 ## 🎙️ Spoken Script with Visual Cues
 
-### [0:00 - 0:45] Section 1: Introduction & Research Question
-*(Visual Cue: Show full-screen browser at `http://localhost:5173` with the Hero section).*
+### [0:00 - 0:45] Section 1: Introduction, Research Question & CRISP-DM Lifecycle
+*(Visual Cue: Show full-screen browser at `http://localhost:5173` with the Hero section & CRISP-DM Lifecycle cards).*
 
 > **Speaker:**  
 > "Hello everyone! Today, I’m presenting an end-to-end data science study addressing a classic question in sports analytics:  
 > **'How strong is home-field advantage in European soccer, and how accurately can match results be predicted using only information available before kickoff?'**  
 >  
-> Using the Kaggle European Soccer Database—comprising nearly 26,000 matches across 11 top European leagues from 2008 to 2016—we structured our entire investigation around the **CRISP-DM** data mining lifecycle.  
->  
-> Our goal was not just to train a model, but to build a robust, leakage-safe prediction system deployed through a modern full-stack web application."
+> To structure this project like a production-grade data science initiative, we applied the industry-standard **CRISP-DM** lifecycle—**Cross-Industry Standard Process for Data Mining**—across all 6 stages:  
+> 1. **Business Understanding:** We defined our 3-way prediction target ($H, D, A$) and chose **Macro-F1** as our key metric to ensure draws are never ignored.  
+> 2. **Data Understanding:** We analyzed nearly 26,000 matches from 11 European leagues across 8 full seasons.  
+> 3. **Data Preparation:** We engineered rolling 5-game form and rest features under a strict zero-leakage, same-day batching protocol.  
+> 4. **Modeling:** We trained a clear hierarchy from naive baselines to commercial market odds and combined odds-enhanced models.  
+> 5. **Evaluation:** We evaluated all models on an untouched 2015/16 test season with date-clustered bootstrap confidence intervals.  
+> 6. **Deployment:** We packaged the entire pipeline into a production FastAPI backend and an interactive React web dashboard."
 
 ---
 
