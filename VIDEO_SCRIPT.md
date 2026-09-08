@@ -39,11 +39,13 @@
 *(Visual Cue: Click on the 'Home Advantage EDA' tab).*
 
 > **Speaker:**  
-> "Let’s start with Exploratory Data Analysis. Across the entire 8-season dataset:  
-> - **Home teams win 45.87% of matches**, while away teams win only **28.74%**, and **25.39%** end in draws.  
-> - Host teams score an average of **1.54 goals per match** compared to **1.16 goals** for visitors, representing an average home advantage of **+0.38 goals per fixture**.  
+> "Let’s start with Exploratory Data Analysis—or EDA. EDA is where data scientists visually examine the raw dataset to uncover underlying patterns before jumping into modeling.  
 >  
-> Looking at the league breakdown chart, we see that home advantage is strongest in leagues like Spain's La Liga and the English Premier League, where home win rates exceed 46%.  
+> This tab specifically answers our first research question on home advantage across 26,000 matches:  
+> - **Home teams win 45.87% of matches**, while away teams win only **28.74%**, and **25.39%** end in draws.  
+> - Host teams score an average of **1.54 goals per match** compared to **1.16 goals** for visitors, representing a home advantage of **+0.38 goals per fixture**.  
+>  
+> Looking at the league breakdown chart, home advantage is strongest in leagues like Spain's La Liga and the English Premier League, where home win rates exceed 46%.  
 >  
 > Furthermore, the season trend line reveals that this advantage is remarkably stable year after year, proving that home supremacy is a persistent structural factor in European football."
 
@@ -53,16 +55,15 @@
 *(Visual Cue: Switch to the 'Models & Calibration' tab).*
 
 > **Speaker:**  
-> "Now let’s look at predictive modeling. In sports forecasting, data leakage is a massive risk. We implemented a strict **temporal split**: training on 2008 to 2014, validating on 2014/15, and evaluating on the untouched **2015/16 test season** of 2,905 matches.  
+> "Now let’s look at predictive modeling. In sports forecasting, **data leakage** is a massive pitfall. Data leakage happens when a model accidentally trains on future information it wouldn't have before kickoff—like giving a student the answer key before an exam.  
 >  
-> Crucially, our feature engineering computes rolling 5-match form and rest days using strict same-day batch processing to prevent future leakage.  
+> If you do a standard random train/test split, a model might use future matches from 2015 to predict games from 2014. To prevent this, we implemented a strict **temporal split**: training only on historical seasons from 2008 to 2014, validating on 2014/15, and locking the untouched **2015/16 test season** in a vault for final evaluation.  
 >  
-> Here in the comparison matrix, we observe a fascinating dynamic:  
-> - The **Commercial Betting Market (Bet365 odds)** achieves the highest raw accuracy at **52.39%**, but it almost never predicts draws—its draw recall is a dismal **0.41%**.  
-> - Our **Selected Odds-Enhanced Logistic Model**, which combines rolling form differentials with market odds, unlocks a **Draw Recall of 24.62%** and achieves a **Macro-F1 of 0.4770**.  
-> - This represents a statistically significant **Macro-F1 lift of +0.0963**, backed by a 95% date-clustered bootstrap confidence interval of `[0.0792, 0.1135]`.  
+> In addition, our feature pipeline uses **same-day batch processing**: on Saturdays when 8 matches kick off at once, all predictions are computed using only past history before any of Saturday's scores are logged.  
 >  
-> The confusion matrix clearly illustrates this balance, and our reliability curve shows strong calibration across all three outcomes."
+> In the comparison matrix, you'll see why we evaluate on **Macro-F1** rather than raw accuracy. In soccer, betting markets achieve 52.39% raw accuracy simply by picking favorites—but their **Draw Recall is a dismal 0.41%** because they almost never predict draws!  
+>  
+> Our **Selected Odds-Enhanced Logistic Model** combines pre-match market odds with rolling 5-match team form differentials. It unlocks a **Draw Recall of 24.62%** and achieves a **Macro-F1 of 0.4770**—a statistically significant lift of **+0.0963** over the betting market baseline (95% bootstrap CI: `[0.0792, 0.1135]`)."
 
 ---
 

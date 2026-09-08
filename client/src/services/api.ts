@@ -83,7 +83,11 @@ export const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     });
-    if (!res.ok) throw new Error('Prediction request failed');
+    if (!res.ok) {
+      const errData = await res.json().catch(() => null);
+      const msg = errData?.detail ? (typeof errData.detail === 'string' ? errData.detail : JSON.stringify(errData.detail)) : 'Prediction request failed';
+      throw new Error(msg);
+    }
     return res.json();
   }
 };

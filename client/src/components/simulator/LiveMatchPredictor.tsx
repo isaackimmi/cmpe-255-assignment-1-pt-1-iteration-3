@@ -81,9 +81,8 @@ export const LiveMatchPredictor: React.FC<LiveMatchPredictorProps> = ({ topTeams
         home_recent_goals_conceded: homeGa,
         away_recent_goals_conceded: awayGa,
         home_recent_goal_diff: homeGf - homeGa,
-        away_recent_goal_diff: awayGf - awayGa,
-        home_venue_recent_points: homePts * 1.1,
-        away_venue_recent_points: awayPts * 0.9,
+        home_venue_recent_points: Math.min(3.0, Math.max(0.0, Number((homePts * 1.1).toFixed(2)))),
+        away_venue_recent_points: Math.min(3.0, Math.max(0.0, Number((awayPts * 0.9).toFixed(2)))),
         home_rest_days: homeRest,
         away_rest_days: awayRest,
         ...(useOdds && numOddsH && numOddsD && numOddsA
