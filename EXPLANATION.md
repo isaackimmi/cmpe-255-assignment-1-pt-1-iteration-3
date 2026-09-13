@@ -96,11 +96,11 @@ One of the most profound insights of this research is the difference between **R
 
 ## 🖥️ 5. Step-by-Step Presentation & Demo Guide
 
-When demonstrating this project to stakeholders or an evaluator, follow this structured 5-minute flow:
+When demonstrating this project to stakeholders or an evaluator, follow this structured flow:
 
 ### Step 1: Executive Overview Tab
 - Show the headline KPI cards.
-- Highlight the **45.87% Home Win dominance** and the **+0.0963 Macro-F1 lift**.
+- Highlight the **45.87% Home Win dominance** across 25,979 matches.
 - Emphasize the locked temporal evaluation on 2015/16.
 
 ### Step 2: Home Advantage EDA Tab
@@ -109,9 +109,9 @@ When demonstrating this project to stakeholders or an evaluator, follow this str
 - Inspect the **Team Rankings Table**: Point out that elite clubs (Barcelona, Real Madrid, Bayern Munich) have home win rates exceeding 80%.
 
 ### Step 3: Models & Calibration Tab
-- Show the **Benchmark Matrix**: Walk through the progression from Majority Baseline (20.5% F1) $\rightarrow$ Form-Only (42.9% F1) $\rightarrow$ Market Odds (38.1% F1) $\rightarrow$ Odds-Enhanced (47.7% F1).
-- Open the **Interactive Confusion Matrix**: Switch between Market Baseline and Odds-Enhanced model to visually prove how the model captures draws that the betting market ignores.
-- Highlight the **Draw Calibration Curve**: Demonstrate that when the model predicts a 30% chance of a draw, the match ends in a draw ~30% of the time.
+- Show the **Benchmark Matrix**: Compare Majority Baseline $\rightarrow$ Market Odds $\rightarrow$ Form-Only $\rightarrow$ Odds-Enhanced models.
+- Explain the **Scikit-Learn Argmax Dilemma**: Show the Confusion Matrix and explain why discrete classifiers almost never pick Draw as their #1 outcome (Draw Recall = 0.27%, 2 draws caught out of 733).
+- Highlight the **Draw Calibration Curve**: Demonstrate that continuous predicted probabilities (ECE = 0.0105 for draws) provide reliable risk signals even when discrete labels collapse.
 
 ### Step 4: Match Explorer Tab
 - Filter by **Premier League (England)**.
@@ -122,3 +122,24 @@ When demonstrating this project to stakeholders or an evaluator, follow this str
 - Tweak the **Recent Form Sliders** (e.g. give Arsenal 2.5 pts/game and Chelsea 1.0 pt/game).
 - Enter hypothetical pre-match betting odds and click **⚡ Simulate Kickoff Prediction**.
 - Watch the probability distribution update instantly and read the automated Data Science Tactical Insight!
+
+---
+
+## ⚙️ 6. Backend REST API Architecture (The 3 Core Endpoints)
+
+If you are asked to walk through the FastAPI backend code or explain how the backend works, use this 1-minute breakdown for each core endpoint:
+
+### 🎙️ 1. `/api/eda` (The Home Advantage Explorer)
+* **Why it's important:** Before building any machine learning models, we needed to answer our first research question: *Is home-field advantage actually real, and how strong is it across Europe?*
+* **How it works behind the scenes:** When we load our raw SQLite database of 26,000 games, this endpoint crunches all the numbers—calculating home win rates (~46%), away win rates, draws, and average goals scored across 11 different leagues and 8 seasons. It bundles all that data into clean JSON and sends it to the frontend.
+* **Where you see it in the app:** It powers the **'Home Advantage EDA' tab** (league win rate bars, season stability trendlines, and goal distribution histograms).
+
+### 🎙️ 2. `/api/models` (The Model Scorecard)
+* **Why it's important:** This is our evidence endpoint. It proves how our machine learning models perform against baselines on real, unseen games from the 2015/16 test season.
+* **How it works behind the scenes:** When our Python backend finishes evaluating our models on the final test season of 2,905 games, it saves a scorecard. This endpoint loads that scorecard and returns the side-by-side comparison matrix, confusion matrix counts, calibration curves, and bootstrap confidence intervals.
+* **Where you see it in the app:** It powers the **'Models & Calibration' tab** (comparison matrix table, interactive confusion matrix inspector, and reliability curves).
+
+### 🎙️ 3. `POST /api/predict` (The Live Match Simulator)
+* **Why it's important:** A machine learning model isn't useful if it just sits in a notebook. This endpoint brings our model to life by letting anyone simulate any matchup right before kickoff.
+* **How it works behind the scenes:** The frontend sends a JSON package with the two teams, their recent 5-game rolling stats (points per game, goal differentials), rest days, and bookmaker odds. The endpoint calculates feature differentials on the fly, loads our saved `lr_odds_enhanced.pkl` model file, runs inference in milliseconds, and sends back calibrated win, draw, and loss probabilities.
+* **Where you see it in the app:** It powers the **'Live Match Predictor' tab** (the interactive sliders, odds inputs, live probability gauge, and data science tactical commentary).

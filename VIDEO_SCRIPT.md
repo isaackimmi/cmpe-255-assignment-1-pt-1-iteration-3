@@ -69,7 +69,7 @@
 >  
 > Commercial betting markets do the exact same thing—achieving 52.0% raw accuracy by ignoring draws.  
 >  
-> This critical discovery proves why in real-world sports data science, **continuous calibrated probabilities** (like estimating a 30% draw likelihood) provide far more genuine tactical insight than forcing a model into a discrete label guess!"
+> When comparing our Odds-Enhanced model (0.3836 Macro-F1) against the Betting Market baseline (0.3799 Macro-F1), we observe a small lift of +0.0037. When we run 1,000 date-clustered bootstrap resamples, our 95% confidence interval spans from -0.0007 to +0.0083. Because it crosses zero, it proves that raw discrete labels cannot reliably beat multi-billion-dollar betting markets—which is why in real-world sports data science, **continuous calibrated probabilities** (like estimating a 30% draw likelihood) provide far more genuine tactical value than forcing a model into a discrete label guess!"
 
 ---
 
@@ -100,11 +100,30 @@
 
 ---
 
-### [5:00 - 5:30] Section 6: Conclusion & Wrap-Up
+### [5:00 - 6:00] Section 6: Backend API Architecture (The 3 Core Endpoints)
+*(Visual Cue: Open `http://localhost:8000/docs` in the browser or show `server/api/`).*
+
+> **Speaker:**  
+> "Behind this interactive dashboard sits a modular FastAPI backend. The entire application is powered by three core endpoints:
+> 
+> 1. **`/api/eda` (The Home Advantage Explorer):**  
+>    *Before building models, we needed to know if home advantage is real. When we load 26,000 raw matches from SQLite, this endpoint crunches all the numbers—calculating home win rates (~46%), goal averages (+0.38 goals/game), and season stability across 11 leagues. It powers our 'Home Advantage EDA' tab.*
+> 
+> 2. **`/api/models` (The Model Scorecard):**  
+>    *This is our evidence endpoint. It loads our pre-calculated test results from the final 2015/16 season and returns the side-by-side comparison matrix, confusion matrix counts, calibration curves, and bootstrap confidence intervals. It powers our 'Models & Calibration' tab.*
+> 
+> 3. **`POST /api/predict` (The Live Match Simulator):**  
+>    *This brings our model to life. The frontend sends team stats, rolling form sliders, and betting odds. The endpoint calculates feature differentials on the fly, loads our saved `lr_odds_enhanced.pkl` model, runs inference in milliseconds, and returns the win, draw, and loss probabilities. It powers our 'Live Match Predictor' tab.*
+> 
+> To put it simply: `/api/eda` shows historical trends, `/api/models` proves our model results, and `/api/predict` lets users test the model live."
+
+---
+
+### [6:00 - 6:30] Section 7: Conclusion & Wrap-Up
 *(Visual Cue: Return to Overview Tab or show GitHub repo).*
 
 > **Speaker:**  
-> "In summary: Home-field advantage in European soccer is both statistically robust (+0.38 goals/game) and temporally stable. While commercial betting odds maximize raw accuracy, incorporating leakage-safe chronological form provides a superior, balanced model across all three match outcomes.  
+> "In summary: Home-field advantage in European soccer is both statistically robust (+0.38 goals/game) and temporally stable across 8 seasons. While commercial betting odds optimize for raw accuracy by ignoring draws, probabilistic modeling and leakage-safe feature engineering provide deep analytical insight into pre-kickoff match dynamics.  
 >  
 > The entire project is available on GitHub and can be launched locally with a single `./run_demo.sh` command.  
 >  
