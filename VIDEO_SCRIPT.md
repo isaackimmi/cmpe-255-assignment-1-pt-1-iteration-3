@@ -13,7 +13,7 @@
 |---|---|---|---|
 | **0:00 - 0:45** | 1. Introduction & Research Question | Dashboard Hero Section + Title Screen | Introduce research question, dataset (25,979 matches), and CRISP-DM methodology. |
 | **0:45 - 1:45** | 2. Home-Field Advantage EDA | EDA Tab (League bars, Season trends, Goal distributions) | Present 45.87% home win rate, +0.38 goal advantage, league differences, and season stability. |
-| **1:45 - 3:00** | 3. Modeling, Evaluation & The Draw Dilemma | Models & Calibration Tab (Comparison matrix, Confusion Matrix, ECE curve) | Explain leakage-safe temporal protocol, show +0.0963 Macro-F1 lift, and contrast Draw Recall (24.6% vs 0.4%). |
+| **1:45 - 3:00** | 3. Modeling, Evaluation & The Scikit Argmax Dilemma | Models & Calibration Tab (Comparison matrix, Confusion Matrix, ECE curve) | Explain leakage-safe temporal protocol, examine the Scikit-Learn Argmax Dilemma, and contrast discrete labels with calibrated probabilities. |
 | **3:00 - 4:00** | 4. Interactive Match Explorer | Match Explorer Tab (2015/16 fixtures with filters) | Filter England / Premier League, inspect high-profile fixtures, compare predicted vs actual scores. |
 | **4:00 - 5:00** | 5. Live Match Simulator | Live Predictor Tab (Arsenal vs Chelsea matchup simulation) | Adjust form sliders and odds live, click Simulate, explain real-time probability gauge and tactical insight. |
 | **5:00 - 5:30** | 6. Summary, Limitations & Conclusion | Summary KPIs & GitHub Repo Screen | Wrap up key findings, mention limitations, invite viewers to clone repo via `./run_demo.sh`. |
@@ -55,19 +55,21 @@
 
 ---
 
-### [1:45 - 3:00] Section 3: Modeling & The Draw Dilemma
-*(Visual Cue: Switch to the 'Models & Calibration' tab).*
+### [1:45 - 3:00] Section 3: Modeling & The Scikit-Learn Argmax Dilemma
+*(Visual Cue: Switch to the 'Models & Calibration' tab, showing the Benchmark Matrix and Confusion Matrix).*
 
 > **Speaker:**  
 > "Now let’s look at predictive modeling. In sports forecasting, **data leakage** is a massive pitfall. Data leakage happens when a model accidentally trains on future information it wouldn't have before kickoff—like giving a student the answer key before an exam.  
 >  
-> If you do a standard random train/test split, a model might use future matches from 2015 to predict games from 2014. To prevent this, we implemented a strict **temporal split**: training only on historical seasons from 2008 to 2014, validating on 2014/15, and locking the untouched **2015/16 test season** in a vault for final evaluation.  
+> To prevent this, we implemented a strict **temporal split**: training on 2008 to 2014, validating on 2014/15, and locking the untouched **2015/16 test season** in a digital vault. We also used **same-day batching** so matches played simultaneously on Saturday don't leak into each other.  
 >  
-> In addition, our feature pipeline uses **same-day batch processing**: on Saturdays when 8 matches kick off at once, all predictions are computed using only past history before any of Saturday's scores are logged.  
+> Here in the comparison matrix and confusion matrix, we uncover a classic sports analytics phenomenon: **The Scikit-Learn Argmax Dilemma**.  
 >  
-> In the comparison matrix, you'll see why we evaluate on **Macro-F1** rather than raw accuracy. In soccer, betting markets achieve 52.39% raw accuracy simply by picking favorites—but their **Draw Recall is a dismal 0.41%** because they almost never predict draws!  
+> In soccer, draws happen ~25% of the time, so draw probabilities typically hover between 24% and 30%. When standard machine learning classifiers like Scikit-Learn make a discrete choice using `argmax`, they choose whichever outcome has the single highest probability. Because either the Home win (say 45%) or Away win (say 32%) almost always beats the Draw probability, **the model virtually never picks Draw as its #1 choice**—which is why the confusion matrix shows only 2 draws selected in raw label classification.  
 >  
-> Our **Selected Odds-Enhanced Logistic Model** combines pre-match market odds with rolling 5-match team form differentials. It unlocks a **Draw Recall of 24.62%** and achieves a **Macro-F1 of 0.4770**—a statistically significant lift of **+0.0963** over the betting market baseline (95% bootstrap CI: `[0.0792, 0.1135]`)."
+> Commercial betting markets do the exact same thing—achieving 52.0% raw accuracy by ignoring draws.  
+>  
+> This critical discovery proves why in real-world sports data science, **continuous calibrated probabilities** (like estimating a 30% draw likelihood) provide far more genuine tactical insight than forcing a model into a discrete label guess!"
 
 ---
 

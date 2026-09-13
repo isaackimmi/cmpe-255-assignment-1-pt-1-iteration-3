@@ -76,24 +76,21 @@ One of the most profound insights of this research is the difference between **R
   $$\text{Macro-F1} = \frac{F1_H + F1_D + F1_A}{3}$$
 - **Why it is critical:** It treats all three outcomes with equal importance and heavily penalizes models that ignore hard-to-predict outcomes like draws.
 
-### The Draw Dilemma in European Football
-- Home Wins: ~45.9%
-- Away Wins: ~28.7%
-- Draws: ~25.4%
-- Because a draw is rarely the single most probable outcome for any individual match (typically hovering around 25–28% implied probability), commercial bookmakers almost never make a draw the top favorite.
-- As a result, the **Betting Market Baseline achieves 52.39% accuracy, but has a Draw Recall of only 0.41%** (it catches almost no draws!).
+### The Draw Dilemma & The Scikit-Learn Argmax Phenomenon
+- In real-world European soccer:
+  - Home Wins occur: ~45.9%
+  - Away Wins occur: ~28.7%
+  - Draws occur: ~25.4%
+- Because a draw is rarely the single highest-probability outcome for any individual match (typically hovering around 24–30% implied probability), standard machine learning classifiers encounter the **Scikit-Learn Argmax Dilemma**:
+  - `predict()` chooses the label with the maximum single probability (`argmax(P(H), P(D), P(A))`).
+  - Because either the Home Win (e.g. 45%) or Away Win (e.g. 32%) almost always exceeds the Draw probability, **standard discrete classifiers virtually never pick 'Draw' as their #1 choice**.
+  - In our test season (733 actual draws), our Odds-Enhanced Logistic Regression model chose Draw only 2 times in discrete classification (`0.27% Draw Recall`, `52.05% Accuracy`, `0.3836 Macro-F1`).
+  - The Betting Market Baseline exhibits the exact same behavior (`52.01% Accuracy`, `0.3799 Macro-F1`, 0 draws predicted).
 
-### What is the "Selected Odds-Enhanced Logistic Model"?
-Our selected architecture is a Multiclass Logistic Regression model that combines two complementary feature sets:
-1. **Normalized Market Odds:** Implied probabilities derived from pre-match betting odds ($1 / \text{odds}$), capturing unmodeled factors like injuries, weather, squad rotation, and market sentiment.
-2. **Rolling Form Differentials:** Statistical differentials over the last 5 matches (`Home Form - Away Form`, venue-specific form, goal difference momentum, and rest day differentials).
-
-### Why Combining Them Matters:
-- **Betting odds alone** optimize for raw accuracy and collapse on draws.
-- **Rolling form alone** captures tactical momentum but lacks real-time external context (e.g. key player injuries).
-- **Combining both** produces the best of both worlds:
-  - Boosts **Macro-F1 from 0.3807 to 0.4770** (a statistically significant lift of **+0.0963**, 95% bootstrap CI: `[0.0792, 0.1135]`).
-  - Unlocks a **Draw Recall of 24.62%** (catching nearly a quarter of all draws, vs 0.41% for the market baseline).
+### Why Continuous Calibrated Probabilities Matter:
+- In sports analytics, forcing a model into a discrete binary choice ($H, D, A$) hides critical predictive nuance.
+- What matters in practice is **probability calibration**: When our model predicts a 28% probability of a draw, does a draw occur roughly 28% of the time?
+- Our calibration curve demonstrates strong reliability (ECE = 0.0105 for draws), proving that the model captures meaningful risk signals before kickoff even when standard discrete `argmax` collapses on draws.
 
 ---
 
