@@ -30,7 +30,7 @@
 > **'How strong is home-field advantage in European soccer, and how accurately can match results be predicted using only information available before kickoff?'**  
 >  
 > To structure this project like a production-grade data science initiative, we applied the industry-standard **CRISP-DM** lifecycle—**Cross-Industry Standard Process for Data Mining**—across all 6 stages:  
-> 1. **Business Understanding:** We defined our 3-way prediction target ($H, D, A$) and chose **Macro-F1** as our key metric to ensure draws are never ignored.  
+> 1. **Business Understanding:** We defined our 3-way prediction target ($H, D, A$) and chose **Macro-F1** as our key metric to expose whether models secretly ignore draws (which raw accuracy hides).  
 > 2. **Data Understanding:** We analyzed nearly 26,000 matches from 11 European leagues across 8 full seasons.  
 > 3. **Data Preparation:** We engineered rolling 5-game form and rest features under a strict zero-leakage, same-day batching protocol.  
 > 4. **Modeling:** We trained a clear hierarchy from naive baselines to commercial market odds and combined odds-enhanced models.  
